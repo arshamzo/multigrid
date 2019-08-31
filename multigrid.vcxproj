@@ -151,9 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calc.cpp" />
     <ClCompile Include="multigrid.cpp" />
     <ClCompile Include="amg.cpp" />
     <ClCompile Include="prolong.cpp" />
+    <ClCompile Include="smoother.cpp" />
+    <ClCompile Include="readmatix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
